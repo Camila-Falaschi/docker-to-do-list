@@ -1,1 +1,1 @@
-docker-compose up -d --name todobackend --build ./docker/todo-app/back-end/Dockerfile
+docker image build --tag todobackend ./todo-app/back-end
